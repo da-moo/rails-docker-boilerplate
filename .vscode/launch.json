@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Docker: Attach to Rails",
+            "type": "Ruby",
+            "request": "attach",
+            "cwd": "${workspaceRoot}",
+            "remotePort": "1234",
+            "remoteHost": "0.0.0.0",
+            "remoteWorkspaceRoot": "/my_app",
+            "showDebuggerOutput": true
+        }
+    ]
+}
